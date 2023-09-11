@@ -1,0 +1,32 @@
+
+.file-upload-container
+{
+        padding: 10px;
+        background-color:rgb(44, 42, 42);
+}
+  
+  label {
+    
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    margin-bottom: 10px;
+  }
+  
+ input[type="file"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  } 
+  
+  .column
+  {
+    color: antiquewhite;
+   
+  }
+  
+  
+  

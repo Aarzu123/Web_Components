@@ -1,0 +1,47 @@
+.container {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(56, 53, 53);
+    width: 50%;
+    gap: 8px; /* Add spacing between input groups */
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* Add spacing between labels and inputs within a group */
+  }
+  
+  label {
+     /* Adjust the label width as needed */
+    text-align: right; /* Align label text to the right */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    color: aliceblue;
+  }
+  
+  input,
+  textarea {
+    flex: 1; /* Allow inputs to expand and take available space */
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    background-color: #131010;
+    color: white; 
+
+  }
+  ::placeholder {
+    color: rgb(218, 213, 213); /* Set the placeholder text color to white */
+  }
+  h5{
+    color:#fff;
+  }
+ #txt
+ {
+    height: 35px;;
+ }
+  

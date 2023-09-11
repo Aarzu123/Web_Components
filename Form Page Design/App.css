@@ -1,0 +1,51 @@
+
+/* App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  min-height: 100vh; /* Ensure the content covers the entire viewport height */
+  background-color: rgb(29, 28, 28); /* Set the background color */
+  color: #fff; /* Set text color */
+  padding: 20px; /* Add some padding for spacing */
+}
+
+.slide {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+p{
+  text-align:justify;
+  width: 50%;
+}
+/* Example CSS for styling the img tag */
+
+/* Center the image horizontally and vertically within its container */
+img {
+  display:block; /* Remove any default inline alignment */
+  /*margin: 0 auto;  Center horizontally */
+  padding-left: 10px;
+  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+  height: auto; /* Maintain the image's aspect ratio */
+  border: 1px solid #ccc; /* Add a border (adjust as needed) */
+  border-radius: 4px; /* Add rounded corners (adjust as needed) */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a box shadow (adjust as needed) */
+}
+
+/* Apply additional styles as needed */

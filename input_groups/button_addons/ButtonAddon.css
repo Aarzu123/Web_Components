@@ -1,0 +1,37 @@
+.container {
+  background-color: rgb(41, 39, 39);
+  color: #2f3235;
+  display: flex;
+  flex-direction: column;
+   /* Adjust the gap size as needed */
+}
+
+.group {
+  display: flex;
+  padding: 5px;
+ /* Adjust the gap size between buttons and input fields */
+  align-items: center;
+  color: #2f3235;
+}
+
+/* Optional: Add more styling for buttons and input fields */
+button {
+  padding: 8px;
+  background-color: #2f3235;
+  color: white;
+  border:1px solid #ccc; ;
+  border-radius: 4px; 
+  cursor: pointer;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: black;
+  
+  color: aliceblue;
+}
+.custom-input {
+  width: 225px; /* Change to your desired width */
+}

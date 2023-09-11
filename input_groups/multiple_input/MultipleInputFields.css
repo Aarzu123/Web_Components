@@ -1,0 +1,25 @@
+*
+{
+  background-color:rgb(29, 28, 28);
+   margin-top: 10px;
+   
+}
+
+.multiple-input-container
+{
+    padding-top: 20px;
+    text-decoration-color: aliceblue;
+}
+input
+{
+    padding: 5px;
+    width: 20%;
+    border: 1px solid #ccc;
+    color: #fff;
+}
+label{
+    border: 1px solid #f5f0f0; /* Border style for the label container */
+    border-radius: 4px;
+    padding: 3px;
+    color: #fff;
+}

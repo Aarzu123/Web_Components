@@ -1,0 +1,9 @@
+/* GridContainer.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px; /* Padding for the entire container */
+    background-color: #f4f4f4; /* Background color for the container */
+  }
+  
